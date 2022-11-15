@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A47DD4DD">
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#605C5C"
+        android:onClick="abrirCuartaApp"
+        android:text="Siguiente"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button27"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#C86D91"
+        android:text="N"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button29"
+        android:layout_toRightOf="@id/button29"
+        android:backgroundTint="#AF82C3"
+        android:text="NE" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button30"
+        android:layout_toRightOf="@id/button30"
+        android:backgroundTint="#4AB6AA"
+        android:text="E" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button30"
+        android:layout_toLeftOf="@id/button35"
+        android:backgroundTint="#4AB6AA"
+        android:text="O" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button31"
+        android:layout_toLeftOf="@id/button31"
+        android:backgroundTint="#AF82C3"
+        android:text="SE" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button32"
+        android:layout_toLeftOf="@id/button32"
+        android:backgroundTint="#C86D91"
+        android:text="S"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button30"
+        android:layout_toLeftOf="@id/button30"
+        android:backgroundTint="#C86D91"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button34"
+        android:layout_toLeftOf="@id/button33"
+        android:backgroundTint="#AF82C3"
+        android:text="SO" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button30"
+        android:layout_toLeftOf="@id/button35"
+        android:backgroundTint="#4AB6AA"
+        android:text="O" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button29"
+        android:layout_toLeftOf="@id/button29"
+        android:backgroundTint="#AF82C3"
+        android:text="NO" />
+
+</RelativeLayout>
